@@ -46,7 +46,7 @@ console.log(marks.slice(2, 6));
 let arr1 = Array.from(marks);
 console.log("Array from" + arr);
 
-map, filter, reduce;
+// map, filter, reduce;
 
 const student1 = marks.map((stu) => {
   console.log("map" + stu);
