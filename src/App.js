@@ -1,11 +1,13 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
-import Gym from "./gymSit/Gym";
+// import Gym from "./gymSit/Gym";
+import Jokes from "./randomJokes/Jokes";
 
 function App() {
   return (
     <div className="App">
-      <Gym />
+      {/* <Gym /> */}
+      <Jokes />
     </div>
   );
 }
