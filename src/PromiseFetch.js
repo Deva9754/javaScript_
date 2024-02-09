@@ -50,7 +50,9 @@ let a2 = async () => {
 
 // fetch
 
-let p = fetch(`https://api.weatherapi.com/v1/current.json?key=&q=London&aqi=no`)
+let pro = fetch(
+  `https://api.weatherapi.com/v1/current.json?key=&q=London&aqi=no`
+)
   .then((value) => {
     console.log(value.status);
     return value.json();

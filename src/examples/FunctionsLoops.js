@@ -28,16 +28,17 @@ console.log(new_arr);
 
 //Loops
 const marks3 = [59, 54, 67, 23, 67, 65, 78];
-// // for( i=0;i<marks.length;i++)
-// // console.log(marks[i])
-// // delete marks[0]
-// // console.log(marks.length)
+for (let i = 0; i < marks.length; i++) console.log(marks[i]);
+delete marks[0];
+console.log(marks.length);
+console.log(marks3);
 
 const marks2 = [59, 54, 67, 23, 67, 65, 78];
 
 const marks11 = [59, 54, 67, 23, 67, 65, 78];
 const new_array1 = marks.concat(marks1);
 console.log(new_array.length);
+console.log(marks2, marks11);
 let compare1 = (a, b) => {
   return a - b;
 };
@@ -84,7 +85,7 @@ a = Number.parseInt(a);
 if (a >= 18) {
   alert("you can Drive");
 } else if (a <= 18) {
-  // alert("you cannot Drive")
+  alert("you cannot Drive");
   // eslint-disable-next-line no-restricted-globals
   location.href =
     "https://dribbble.com/shots/16185509-Profile-Card/attachments/8044007?mode=media";
