@@ -67,11 +67,11 @@ do {
   a = prompt("enter a number");
   a = Number.parseInt(a);
   marks.push(a);
-} while (a != 0);
+} while (a !== 0);
 console.log(marks);
 
 const detail = marks.filter((data) => {
-  return data % 2 == 0;
+  return data % 2 === 0;
 });
 console.log(detail);
 
