@@ -109,6 +109,31 @@ box-shadow: 5px 3px whitesmoke;
         margin-top: 180px;
         padding: 5px;
     }
+
+    .sidebar{
+        width: 20%;
+        height: 100%;
+        background-color: rgb(250, 249, 251);
+        border-radius: 10px;
+    }
+    .body{
+        width: 60%;
+        height: 100%;
+    }
+    .rightbar{
+        width: 20%;
+        height: 100%;
+        padding: 10px;
+    
+    }
+    .subscription{
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: orangered;
+        color: white;
+        margin-top: 180px;
+        padding: 5px;
+    }
 .btncancel{
 margin: 10px;
 padding: 10px;
@@ -123,6 +148,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 }
 span{
     color: grey;
+    font-size: small;
 }
 .sidebar1{
     display: flex;
@@ -132,61 +158,118 @@ span{
 a{
     text-decoration: none;
 }
-</style>
-<body>
-    <div class="card">
-        <div class="card1">
-<h1>Create a link</h1>
+.sidebar21{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 94px;
+    padding-left: 70px;
+    white-space: nowrap;
+    
 
-<h4>Promote any brand with a simple link</h4>
-<div >
-<input type="text" class="input2" list="browser">
-<datalist id="browser">
+}
+.sidebar-font{
+    color: grey;
+}
+.sidebar-font:hover{
+    color: rgb(59, 50, 50);
+}
+.logout{
+    margin-top: 45%;
+    padding-left: 16%;
+    font-size: medium;
+}
+.BillingTable{
+    display: flex;
+    width: 90%;
+    margin-top: 5%;
+    /* border: 1px solid grey; */
+    justify-content: space-between;
+    padding: 5px;
+    color: grey;
+    font-size: medium;
+}
+.BillingTable:hover{
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+    box-shadow: 5px 10px aliceblue;
+        justify-content: space-between;
+    padding: 5px;
+    color: grey;
+    font-size: medium;
+}
+.BillingHeading{
+    margin: 10%;
+    padding: 10px;
+}
+.Downloadbtn{
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+}
+.learnmore{
+    color: orangered;
+    text-decoration: underline;
+}
+.visaimg{
+    width: 15%;
+    border:1px solid grey;
+    padding: 3px;
+    border-radius: 5px;
+  text-align: center;
+    
+}
+.visabox{
+display: flex;
+justify-content: space-between;
+}
+.webpage2{
+    background-color: rgb(241, 215, 252);
+    margin: 10%;
+    padding:5%;
+    border-radius: 10px;
 
-<option value="Premium Themes">
-    <option value="Newest">
-    <option value=" Indian">
-    </datalist>
-    <input type="text" class="input3" placeholder="Enter a website URL">
-</div>
-<button class="btnCreate">
-    Create
-</button>
-<button class="btnCreate">
-    Advance
-</button>
-
+    
+}
+.webpage1{
+    background-color: orangered;
+    width: 40%;
+    height: 100%;
+    border-radius: 20px;
+    /* position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 1; */
+    
   
+}
 
-            
-        </div>
-        <div class="card2">
-            <h1>Promote</h1>
-            <h4>Use this link to promote</h4>
-            <p>Link updates may takes up to 5 minutes to propogate </p>
-  <input list="browsers" name="myBrowser" /></label>
-<datalist id="browsers">
-  <option value="Chrome">
-  <option value="Firefox">
-  <option value="Internet Explorer">
-  <option value="Opera">
-  <option value="Safari">
-  <option value="Microsoft Edge">
-</datalist>
-<input type="text" class="input2" list="browser">
-<datalist id="browser">
-
-<option value="Premium Themes">
-    <option value="Newest">
-    <option value=" Indian">
-    </datalist>
-<div>Share</div>
-    <img class="logo" src="https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg?size=338&ext=jpg&ga=GA1.1.87170709.1707782400&semt=ais" alt="xLogo">
-    <img class="logo" src="https://store-images.s-microsoft.com/image/apps.31120.9007199266245564.44dc7699-748d-4c34-ba5e-d04eb48f7960.bc4172bd-63f0-455a-9acd-5457f44e4473" alt="linkedinLogo">
+.demo{
+    position: relative;
+    background: #f8f8ff;
+    height: 200px;
+    width: 70%;
+    margin: auto;
+    border-radius: 24px;
+    z-index: auto;
+}
+.mask{
+  position: absolute;
+  content: '';
+  height: 240px;
+  width: 150px;
+  border-radius: 24px;
+  left: -24px;
+  background: orangered;
+  z-index: -1;
+  top: -20px;
+}
+</style>
+<div class="webpage2">
+    <div class="webpage1">
    
-</div>
-    </div>
-
     <div class="webpage"  >
         <div class="sidebar">
             <div class="sidebar1">
@@ -194,21 +277,88 @@ a{
                 <h4>Devashish <br><Span>Deva@gmail.com</Span></h4>
             </div>
             <div class="sidebar2"> 
-            <a href="#">General</a>
+            <a href="#"><div class="sidebar21">
+                <img class="userImg" src="" alt="">
+                <i class="fa-brands fa-weibo"></i><i class="fa fa-address-book" aria-hidden="true"></i>
+
+    <h4 class="sidebar-font">General   </h4>     
+ <img class="userImg" src="" alt="">
+ <h4 class="sidebar-font">Password     </h4>
+ <img class="userImg" src="" alt="">
+ <h4 class="sidebar-font">Invitation </h4>        
+  <img class="userImg" src="" alt="">
+ <h4 class="sidebar-font">Billing  </h4>      
+ <img class="userImg" src="" alt="">
+ <h4 class="sidebar-font">Apps  </h4>        
+ </div></a>
+
 
             </div>
+<a href="#"><div class="logout">
+    <img src="" alt="">
+    <h5 class="sidebar-font">Log out</h5>
+</div></a>
+        </div>
+        <div class="body">
+            <div class="BillingHeading">
+                <h3>Billing</h3>
+
+                order History<br>
+                <span>   manage billing information and view receips</span>
+              
+                <br>
+                <div class="BillingTable">
+                    <div>Date</div>
+                    <div>Type</div>
+                    <div>Receipt</div>
+                   
+                </div>
+                <div class="BillingTable">
+                    <div style="color: black;">Oct21,2024</div>
+                    <div style="color: black;">Pro annual</div>
+                    <div><button class="Downloadbtn">Download</button></div>
+                </div> 
+                  <div class="BillingTable">
+                    <div style="color: black;">August21,2024</div>
+                    <div style="color: black;">Pro portfolio</div>
+                    <div><button class="Downloadbtn">Download</button></div>
+                </div> 
+                  <div class="BillingTable">
+                    <div style="color: black;">July21,2024</div>
+                    <div style="color: black;">Sponsored Post</div>
+                    <div><button class="Downloadbtn">Download</button></div>
+                </div>
+                <a href="#" class="learnmore">Load more</a>
+            
+
+            </div>
+            <div class="BillingHeading"><h3>Payment method</h3>
+            <h5 style="color: grey;"> manage billing information and view receips</h5>
+        <div class="visabox">
+            <img class="visaimg" src="https://resources.mynewsdesk.com/image/upload/c_fill,dpr_auto,f_auto,g_auto,q_auto:good,w_1782/tl7inhtr11jze5sftpn4" alt="">Visa ending in 2255
+            <button class="Downloadbtn">Remove</button>
+
+        </div></div>
+
+
 
         </div>
-        <div class="body"></div>
         <div class="rightbar">
             <div class="subscription">
                 <h4>Your Plan</h4>
                 <h2>Pro Annual</h2>
-               </p> Renews on Nov 2024</p>
+               <p> Renews on Nov 2024</p>
 
                 <button class="btncancel">Cancel Subscription</button>
             </div>
         </div>
+    </div>
+        </div>
+</div>
+    </div>
+
+    <div class="demo">
+     <div class="mask"></div>        
     </div>
     
 </body>
