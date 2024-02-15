@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    margin: auto;
+    height: 70%;
+    width: 70%;
+    border-radius: 12px;
+    /* border: 1px solid grey; */
+    box-shadow: 10px 10px whitesmoke;
+    padding: 15px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    /* border: 0.5px solid grey; */
+}
+.header-left{
+    width: 30%;
+}
+.btn{
+    padding: 8px;
+    border-radius: 8px;
+    color: grey;
+    background-color: white;
+}
+.btn:hover{
+    padding: 8px;
+    border-radius: 8px;
+    color: black;
+    background-color: grey;
+}
+
+.fa-solid{
+    padding: 10px;
+    cursor: pointer;
+}
+.subtitle{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1651d0;
+    border-radius: 10px;
+    margin: 10px;
+}
+.subtitle1{
+    margin-left: 31%;
+    margin-top: 1%;
+    
+}
+.btn-subtitle{
+    color: white;
+    background-color: #1651d0;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.btn-subtitle:hover{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.body{
+    display: flex;
+    padding: 10px;
+    box-shadow: 4px 4px whitesmoke;
+}
+.body-left{
+    /* border: 1px solid grey; */
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    box-shadow: 5px 5px whitesmoke;
+    border-radius: 12px;
+}
+.body-right{
+    /* border: 1px solid grey; */
+    margin: 10px;
+    width: 64%;
+    padding: 15px;
+    height: 50%;
+    box-shadow: 2px 5px whitesmoke;
+}
+.input-name{
+    width: auto;
+    height: 25%;
+box-shadow: 0 2px white;
+border-radius: 12px;
+padding: 5px;
+color: black;
+}
+
+.editbtn{
+    position: absolute; 
+    /* margin-top: -3%; */
+     margin-left: 13%;
+      padding: 4px 33px; 
+     background-color: white; 
+     color: black;
+     border-radius: 12px;
+
+}.user-img{
+    width: 24%;
+    border-radius: 12px;
+}
+.user-img2{
+    width: 28%;
+    border-radius: 12px;
+    margin: 10%;
+}
+.user-img3{
+    width: 10%;
+    border-radius: 12px;
+    box-shadow: 5px 1px whitesmoke ;
+}
+.dollar{
+    display: flex;
+    margin-top: 5%;
+    /* border: 1px solid black ; */
+    justify-content: space-around;
+ }
+ .enquiry{
+    margin-top: 5%;
+    border-radius: 8px;
+    text-decoration: none;
+    width: 100%;
+    height: 10%;
+    color: white;
+    background-color: #1651d0;
+    cursor: pointer;
+ }
+ .check{
+    padding-top: 5%;
+ }
+ .user-img4{
+    width: 4%;
+    border-radius: 12px;
+    box-shadow: 5px 1px whitesmoke ;
+}
+
